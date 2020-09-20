@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".certificate">
+
+    <LinearLayout
+        android:id="@+id/cer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@drawable/certificate"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="jothesh jolly"
+            android:textAllCaps="true"
+            android:paddingRight="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="end"
+            android:textSize="15sp"
+            android:layout_marginBottom="15dp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/play"
+            android:onClick="share"
+            android:text="share"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/gencer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:src="@drawable/certificate"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

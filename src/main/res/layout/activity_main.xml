@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/horizontalScrollView">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_pirate_ship"/>
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:textColor="#FFF"
+                        android:textSize="20sp"
+                        android:hint="Enter your name"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/play"
+                        android:layout_marginTop="70dp"
+                        android:text="play"
+                        android:onClick="play"
+                        android:textColor="#FFF"
+                        android:id="@+id/play" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEVEL 1"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="30dp"/>
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_sword"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEVEL 2"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="30dp"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_sword"/>
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_sword"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEVEL 3"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="30dp"/>
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:src="@drawable/ic_sword"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEVEL 4"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="30dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LEVEL 5"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:textSize="30dp"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_sword"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/ic_treasure"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
